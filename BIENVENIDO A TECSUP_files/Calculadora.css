@@ -1,0 +1,38 @@
+body{
+        background: -webkit-linear-gradient(top,, white);
+}
+.num1{
+        padding-left: 32%;
+        padding-bottom: 2%;
+}
+.x{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium';
+}
+.num2{
+        padding-left: 32%;
+}
+.y{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium';
+}
+.uno{
+        margin-left: 13cm;
+        padding: 1%;
+        width: 17%;
+}
+.dos{
+        margin-left: 2cm;
+        padding: 4%;
+        padding-right: 12%;
+        text-align: center;
+}
+.tres{
+        margin-left: 2cm;
+        padding: 3%;
+}
+.cuatro{
+        margin-left: 2cm;
+        padding: 4%;
+}
+

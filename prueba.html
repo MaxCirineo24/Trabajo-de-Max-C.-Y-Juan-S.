@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./BIENVENIDO A TECSUP_files/estilo.css">
+    <link rel="stylesheet" href="./BIENVENIDO A TECSUP_files/slider.css">
+    <link rel="stylesheet" href="Calculadora.cs">
+
+
+</head>
+
+<style>
+.btn{ 
+padding: 8px 12px;
+text-decoration: none;
+color: white;
+background-color: #B50F13;
+border-radius: 3px;
+transition: 0.5s;
+  }
+.btn:hover{
+   background-color:#039;
+   cursor:pointer;
+   }	  
+</style>
+</head>
+<body>
+<div class="contenedor">
+    <header class="cabecera">
+        <nav class="nav">
+            <h2 class="logo">COLEGIO TECSUP</h2>
+            <ul class="nav-menu ">
+                <li class="nav-menu-item"><a href="BIENVENIDO A TECSUP.html" class="nav-menu-link"> Inicio</a></li>
+                <li class="nav-menu-item"><a href="Noticias.html" class="nav-menu-link"> Noticias</a></li>
+                <li class="nav-menu-item"><a href="Notas.html" class="nav-menu-link"> Notas</a></li>
+                <li class="nav-menu-item"><a href="Calculadora.html" class="nav-menu-link"> Calculadora</a></li>
+                <li class="nav-menu-item"><a href="Contactenos.html" class="nav-menu-link"> Contactenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</html>
+<div class="container">
+    <div class="row">
+        <div class="col border" style="background-color:rgb(107, 238, 26)"style="border:12" style="border: 5px solid rgb(11, 11, 11)" width="">
+            <h1 style="text-align:center;">CALCULADORA<h1>
+        </div>
+    </div>
+<body>
+    <script type="text/javascript" charset="utf-8" src="Calculadora.js"></script>
+    <form action="" id="miformulario">
+        <table>
+            <div class="mesa2">
+                <div class="num1">
+                    <label class="x">Numero 1</label>
+                    <input type="text" name="valor1" id="valor1" value=""  placeholder="Escribe un Numero" autofocus="" style="font-size: 23px">
+                </div>
+                <div class="num2">
+                    <label class="y">Numero 2</label>
+                    <input type="text" name="valor2" id="valor2" value="" placeholder="Escribe un Numero" style="font-size: 23px">
+                </div>
+                <tr>
+                    <td class="botons"><button type="button" class="uno" onclick="Sumar();" style="font-size: 24px" >Sumar</button></td>
+                    <td class="botonr"><button type="button" class="dos" onclick="Restar();" style="font-size: 24px">Restar</button></td>
+                    <td class="botonm"><button type="button" class="tres" onclick="Multiplicar();" style="font-size: 24px">Multiplicar</button></td>
+                    <td class="botond"><button type="button" class="cuatro" onclick="Dividir();" style="font-size: 24px">Dividir</button></td>
+                </tr>
+                <br />
+                <br />
+            </div>
+        </table>
+
+</body>
+
+  
